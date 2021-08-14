@@ -16,14 +16,19 @@ import '@ionic/react/css/text-transformation.css';
 import '@ionic/react/css/flex-utils.css';
 import '@ionic/react/css/display.css';
 
+import 'react-mobile-modals/dist/index.css'
+import { ModalsProvider} from 'react-mobile-modals'
+
 import {IonApp, IonContent} from "@ionic/react";
 import {Navigation} from "./navigation";
 
 function App() {
   return (
-    <IonApp>
-      <Navigation />
-    </IonApp>
+    <ModalsProvider>
+      <IonApp>
+        <Navigation />
+      </IonApp>
+    </ModalsProvider>
   );
 }
 
