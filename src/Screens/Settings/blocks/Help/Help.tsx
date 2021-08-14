@@ -6,7 +6,7 @@ import { Navbar } from "../../../../core/components";
 export const Help = () => {
     return (
         <IonPage>
-            <Navbar title="Помощь" />
+            <Navbar title="Помощь" withBack />
         </IonPage>
     )
 }

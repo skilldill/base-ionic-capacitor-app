@@ -6,7 +6,7 @@ import { Navbar } from "../../../../core/components";
 export const NotificationsSettings = () => {
     return (
         <IonPage>
-            <Navbar title="Уведомления" />
+            <Navbar title="Уведомления" withBack/>
 
             <IonContent>
                 <IonList>

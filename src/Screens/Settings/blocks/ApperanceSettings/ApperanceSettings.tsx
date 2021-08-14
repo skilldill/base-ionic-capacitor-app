@@ -6,7 +6,7 @@ import { Navbar } from "../../../../core/components";
 export const ApperanceSettings = () => {
     return (
         <IonPage>
-            <Navbar title="Оформление" />            
+            <Navbar title="Оформление" withBack />            
         </IonPage>
     )
 }

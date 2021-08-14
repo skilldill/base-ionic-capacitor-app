@@ -6,7 +6,7 @@ import { Navbar } from "../../../../core/components";
 export const AccountSettings = () => {
     return (
         <IonPage>
-            <Navbar title="Аккаунт" />
+            <Navbar title="Аккаунт" withBack />
         </IonPage>
     )
 }

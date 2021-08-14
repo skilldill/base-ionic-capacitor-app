@@ -1,5 +1,5 @@
 import React from "react";
-import {IonContent, IonImg, IonItem, IonList, IonPage, IonToolbar} from "@ionic/react";
+import {IonContent, IonPage, IonRefresher, IonRefresherContent} from "@ionic/react";
 import { Navbar } from "../../core/components";
 import { Card } from "./components";
 
