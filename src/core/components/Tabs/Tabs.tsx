@@ -11,11 +11,13 @@ export const Tabs: FC = (props) => {
         <div className={styles.tabs}>
             {(children as any[])[active]}
             <div className={styles.tabbar}>
-                {(children as any[]).map((tab, i) => 
-                    <div key={i} onClick={() => setActive(i)}>
-                        {i === active ? tab.props.titleActive : tab.props.title}
-                    </div>
-                )}
+                <div className={styles.tabbarContent}>
+                    {(children as any[]).map((tab, i) => 
+                        <div key={i} onClick={() => setActive(i)}>
+                            {i === active ? tab.props.titleActive : tab.props.title}
+                        </div>
+                    )}
+                </div>
             </div>
         </div>
     )
